@@ -124,7 +124,7 @@
         alpha {
             bindings = <
        &none           &none     &kp L             &kp P             &kp Y    &kp F  &kp G          &kp C             &kp R     &none
-       &hm LEFT_ALT A  &hmo 0 O  &hm LEFT_SHIFT E  &hm LGUI U        &kp I    &kp D  &hm LGUI H     &hm LEFT_SHIFT T  &hmo 0 N  &hm LEFT_ALT S
+       &hm LEFT_ALT A  &hmo 4 O  &hm LEFT_SHIFT E  &hm LGUI U        &kp I    &kp D  &hm LGUI H     &hm LEFT_SHIFT T  &hmo 0 N  &hm LEFT_ALT S
 &none  &none           &kp Q     &kp J             &kp K             &kp X    &kp B  &kp M          &kp W             &kp V     &kp Z           &none
                                  &kp LCTRL         &hm LSHIFT SPACE  &mo 3    &mo 2  &kp BACKSPACE  &kp LCTRL
             >;
