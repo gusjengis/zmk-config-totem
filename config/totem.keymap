@@ -55,6 +55,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
             timeout-ms = <15>;
+            layers = <0 1>;
         };
 
         tab {
