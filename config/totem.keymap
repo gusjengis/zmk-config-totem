@@ -113,7 +113,7 @@
         };
 
         dictate {
-            bindings = <&kp LG(K)>;
+            bindings = <&kp F24>;
             key-positions = <22 23>;
             timeout-ms = <15>;
             layers = <0 1>;
