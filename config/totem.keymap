@@ -155,7 +155,7 @@
         &trans        &trans     &kp LA(F4)      &trans     &trans        &trans    &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &trans
         &kp LEFT_ALT  &trans     &kp LEFT_SHIFT  &kp LGUI   &trans        &kp HOME  &kp LEFT         &kp DOWN      &kp RIGHT      &kp END
 &trans  &trans        &kp LC(X)  &kp LC(C)       &kp LC(V)  &kp DELETE    &trans    &trans           &trans        &trans         &trans   &trans
-                                 &trans          &trans     &trans        &none     &kp RIGHT_SHIFT  &none
+                                 &trans          &trans     &trans        &trans    &kp RIGHT_SHIFT  &trans
             >;
         };
 
@@ -170,7 +170,7 @@
 
         mod {
             bindings = <
-       &none  &kp F7  &kp F8     &kp F7  &kp F10    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none
+       &none  &kp F7  &kp F8     &kp F9  &kp F10    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none
        &none  &kp F4  &kp F5     &kp F6  &kp F11    &none         &kp LGUI      &kp LSHFT     &none  &kp LEFT_ALT
 &none  &none  &kp F1  &kp F2     &kp F3  &kp F12    &none         &bt BT_SEL 3  &bt BT_SEL 4  &none  &none         &none
                       &kp LCTRL  &none   &none      &none         &none         &kp LCTRL
