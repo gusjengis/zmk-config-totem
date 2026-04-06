@@ -143,7 +143,7 @@
             bindings = <
              &kp Q           &kp Y      &kp O             &kp U          &kp EQUAL               &kp X  &kp L       &kp D             &kp P     &kp Z
              &hm LEFT_ALT C  &hmo 5 I   &hm LEFT_SHIFT A  &hm LGUI E     &kp MINUS               &kp K  &hm LGUI H  &hm LEFT_SHIFT T  &hmo 6 N  &hm LEFT_ALT S
-&hm LCTRL B  &kp SQT         &kp COMMA  &kp PERIOD        &kp SEMICOLON  &kp SLASH               &kp J  &kp M       &kp G             &kp F     &kp Z           &kp W
+&hm LCTRL B  &kp SQT         &kp COMMA  &kp PERIOD        &kp SEMICOLON  &kp SLASH               &kp J  &kp M       &kp G             &kp F     &kp V           &kp W
                                         &kp LCTRL         &mo 4          &hm LEFT_SHIFT SPACE    &mo 3  &kp R       &kp LCTRL
             >;
         };
