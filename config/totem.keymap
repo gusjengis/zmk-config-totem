@@ -55,7 +55,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
             timeout-ms = <15>;
-            layers = <0 1>;
+            layers = <0 2>;
         };
 
         tab {
@@ -68,42 +68,42 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <17 18>;
             timeout-ms = <15>;
-            layers = <2>;
+            layers = <3>;
         };
 
         caret {
             bindings = <&kp CARET>;
             key-positions = <11 12>;
             timeout-ms = <15>;
-            layers = <2>;
+            layers = <3>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <22 23>;
             timeout-ms = <15>;
-            layers = <2>;
+            layers = <3>;
         };
 
         alpha {
             bindings = <&to 0>;
             key-positions = <10 14>;
             timeout-ms = <15>;
-            layers = <5>;
+            layers = <6>;
         };
 
         gaming {
-            bindings = <&to 1>;
+            bindings = <&to 2>;
             key-positions = <21 25>;
             timeout-ms = <15>;
-            layers = <5>;
+            layers = <6>;
         };
 
         clear {
             bindings = <&bt BT_CLR>;
             key-positions = <1 4>;
             timeout-ms = <15>;
-            layers = <5>;
+            layers = <6>;
         };
 
         enter {
@@ -116,7 +116,14 @@
             bindings = <&kp F24>;
             key-positions = <22 23>;
             timeout-ms = <15>;
-            layers = <0 1>;
+            layers = <0 2>;
+        };
+
+        enthium {
+            bindings = <&to 1>;
+            key-positions = <14 11>;
+            timeout-ms = <15>;
+            layers = <6>;
         };
     };
 
@@ -126,16 +133,25 @@
         alpha {
             bindings = <
            &none           &none     &kp L             &kp P       &kp Y                   &kp F  &kp G          &kp C             &kp R     &none
-           &hm LEFT_ALT A  &hmo 4 O  &hm LEFT_SHIFT E  &hm LGUI U  &kp I                   &kp D  &hm LGUI H     &hm LEFT_SHIFT T  &hmo 5 N  &hm LEFT_ALT S
+           &hm LEFT_ALT A  &hmo 5 O  &hm LEFT_SHIFT E  &hm LGUI U  &kp I                   &kp D  &hm LGUI H     &hm LEFT_SHIFT T  &hmo 6 N  &hm LEFT_ALT S
 &kp LCTRL  &none           &kp Q     &kp J             &kp K       &kp X                   &kp B  &kp M          &kp W             &kp V     &kp Z           &kp LCTRL
-                                     &kp LCTRL         &mo 3       &hm LEFT_SHIFT SPACE    &mo 2  &kp BACKSPACE  &kp LCTRL
+                                     &kp LCTRL         &mo 4       &hm LEFT_SHIFT SPACE    &mo 3  &kp BACKSPACE  &kp LCTRL
+            >;
+        };
+
+        enthium {
+            bindings = <
+             &kp Q           &kp Y      &kp O             &kp U          &kp EQUAL               &kp X  &kp L       &kp D             &kp P     &kp Z
+             &hm LEFT_ALT C  &hmo 5 I   &hm LEFT_SHIFT A  &hm LGUI E     &kp MINUS               &kp K  &hm LGUI H  &hm LEFT_SHIFT T  &hmo 6 N  &hm LEFT_ALT S
+&hm LCTRL B  &kp SQT         &kp COMMA  &kp PERIOD        &kp SEMICOLON  &kp SLASH               &kp J  &kp M       &kp G             &kp F     &kp Z           &kp W
+                                        &kp LCTRL         &mo 4          &hm LEFT_SHIFT SPACE    &mo 3  &kp R       &kp LCTRL
             >;
         };
 
         gaming {
             bindings = <
        &kp T       &kp Q  &kp W   &kp E      &kp R        &kp Y   &kp U   &kp I      &kp O     &kp P
-       &kp LSHIFT  &kp A  &kp S   &kp D      &kp F        &kp H   &kp J   &kp K      &hmo 5 L  &kp SEMI
+       &kp LSHIFT  &kp A  &kp S   &kp D      &kp F        &kp H   &kp J   &kp K      &hmo 6 L  &kp SEMI
 &kp G  &kp B       &kp Z  &kp X   &kp C      &kp V        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
                           &trans  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
             >;
@@ -152,10 +168,10 @@
 
         nav {
             bindings = <
-        &trans        &trans     &kp LA(F4)      &trans     &trans        &trans    &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &trans
-        &kp LEFT_ALT  &trans     &kp LEFT_SHIFT  &kp LGUI   &trans        &kp HOME  &kp LEFT         &kp DOWN      &kp RIGHT      &kp END
-&trans  &trans        &kp LC(X)  &kp LC(C)       &kp LC(V)  &kp DELETE    &trans    &trans           &trans        &trans         &trans   &trans
-                                 &trans          &trans     &trans        &trans    &kp RIGHT_SHIFT  &trans
+        &trans        &trans     &kp LA(F4)      &trans     &trans        &trans    &kp PAGE_UP    &kp UP_ARROW  &kp PAGE_DOWN  &trans
+        &kp LEFT_ALT  &trans     &kp LEFT_SHIFT  &kp LGUI   &trans        &kp HOME  &kp LEFT       &kp DOWN      &kp RIGHT      &kp END
+&trans  &trans        &kp LC(X)  &kp LC(C)       &kp LC(V)  &kp DELETE    &trans    &trans         &trans        &trans         &trans   &trans
+                                 &trans          &trans     &trans        &trans    &kp BACKSPACE  &trans
             >;
         };
 
