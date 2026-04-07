@@ -55,7 +55,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
             timeout-ms = <15>;
-            layers = <0 2>;
+            layers = <0 2 1>;
         };
 
         tab {
@@ -116,7 +116,7 @@
             bindings = <&kp F24>;
             key-positions = <22 23>;
             timeout-ms = <15>;
-            layers = <0 2>;
+            layers = <0 2 1>;
         };
 
         enthium {
