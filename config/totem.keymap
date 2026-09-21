@@ -168,10 +168,10 @@
 
         nav {
             bindings = <
-        &trans        &trans     &kp LA(F4)      &trans     &trans        &trans    &kp PAGE_UP    &kp UP_ARROW  &kp PAGE_DOWN  &trans
-        &kp LEFT_ALT  &trans     &kp LEFT_SHIFT  &kp LGUI   &trans        &kp HOME  &kp LEFT       &kp DOWN      &kp RIGHT      &kp END
-&trans  &trans        &kp LC(X)  &kp LC(C)       &kp LC(V)  &kp DELETE    &trans    &trans         &trans        &trans         &trans   &trans
-                                 &trans          &trans     &trans        &trans    &kp BACKSPACE  &trans
+        &trans        &kp K_PREV  &kp LA(F4)      &kp K_PLAY_PAUSE  &kp K_NEXT    &trans    &kp PAGE_UP    &kp UP_ARROW  &kp PAGE_DOWN  &trans
+        &kp LEFT_ALT  &trans      &kp LEFT_SHIFT  &kp LGUI          &trans        &kp HOME  &kp LEFT       &kp DOWN      &kp RIGHT      &kp END
+&trans  &trans        &kp LC(X)   &kp LC(C)       &kp LC(V)         &kp DELETE    &trans    &trans         &trans        &trans         &trans   &trans
+                                  &trans          &trans            &trans        &trans    &kp BACKSPACE  &trans
             >;
         };
 
